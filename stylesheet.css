@@ -1,0 +1,32 @@
+#navbar {
+    background-color:blue;
+    height:100px;
+    
+}
+#side{
+    background-color:yellow;
+    min-height:400px;
+    width:200px;
+    float: right;
+}
+
+#content{
+    min-height:400px;
+    background-color:green;
+    
+}
+#footer{
+    height:100px;
+    background-color:blue;
+}
+@media screen and (max-width:480px) {
+    #side{
+        width:auto;
+        float:none;
+        min-height: 100px;
+    }
+    #content{
+        width:auto;
+        min-height: 200px;
+    }
+}
